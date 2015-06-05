@@ -11,28 +11,28 @@ var settings = require('./settings');
 
 var app = express();
 
-var session = require('express-session');
-var MongoStore = require('connect-mongo')(session);
+// var session = require('express-session');
+// var MongoStore = require('connect-mongo')(session);
 
-var flash = require('connect-flash');
+// var flash = require('connect-flash');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
-app.use(flash());
+// app.use(flash());
 
 //mongodb
-app.use(session({
-  secret: settings.cookieSecret,
-  key: settings.db,//cookie name
-  cookie: {maxAge: 1000 * 60 * 60 * 24 * 30},//30 days
-  store: new MongoStore({
-    db: settings.db,
-    host: settings.host,
-    port: settings.port
-  })
-}));
+// app.use(session({
+//   secret: settings.cookieSecret,
+//   key: settings.db,//cookie name
+//   cookie: {maxAge: 1000 * 60 * 60 * 24 * 30},//30 days
+//   store: new MongoStore({
+//     db: settings.db,
+//     host: settings.host,
+//     port: settings.port
+//   })
+// }));
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(__dirname + '/public/favicon.ico'));
