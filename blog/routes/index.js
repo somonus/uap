@@ -9,35 +9,35 @@ router.get('/', function(req, res, next) {
         title: "UAP",
         index: 0
     };
-    res.render('index', param);
+    res.render('new-index', param);
 });
 router.get('/index.html', function(req, res, next) {
     var param = {
         title: "UAP",
         index: 0
     };
-    res.render('index', param);
+    res.render('new-index', param);
 });
 router.get('/about-us.html', function(req, res, next) {
     var param = {
         title: "UAP",
         index: 1
     };
-    res.render('about-us', param);
+    res.render('new-touap', param);
 });
 router.get('/shortcodes.html', function(req, res, next) {
     var param = {
         title: "UAP",
         index: 2
     };
-    res.render('shortcodes', param);
+    res.render('new-wszx', param);
 });
 router.get('/blog-item.html', function(req, res, next) {
     var param = {
         title: "UAP",
         index: 3
     };
-    res.render('blog-item', param);
+    res.render('new-product', param);
 });
 router.get('/portfolio.html', function(req, res, next) {
     var param = {

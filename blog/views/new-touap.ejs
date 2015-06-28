@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title><%= title %></title>
+    
+    <!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel='stylesheet' id='camera-css'  href='../css/camera.css' type='text/css' media='all'> 
+    <link href="css/main.css" rel="stylesheet">
+    <!-- <link href="css/responsive.css" rel="stylesheet"> -->
+    <link href="css/new.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+</head><!--/head-->
+<body>
+     <div class="my-container clearfix">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li ><a href="index.html">首页</a></li>
+            <li  ><a href="shortcodes.html">微商资讯</a></li>
+            <li class="active"><a href="about-us.html">走近UAP</a></li>
+            <li  ><a href="blog-item.html">产品中心</a></li>
+            <li  ><a href="portfolio.html">授权查询</a></li> 
+            <li  ><a href="contact-us.html">联系我们</a></li>  
+            <li  ><a href="pricing.html">代理商登陆</a></li>                        
+        </ul>
+    </div><!--/.my-container-->
+    <div class="fluid_container">
+        <div class="camera_wrap camera_emboss pattern_1" id="camera_wrap_4">
+            <div data-src="images/banner1.jpg">
+            </div>
+            <div data-src="images/banner2.jpg">
+            </div>
+            <div data-src="images/banner3.jpg">
+            </div>
+        </div><!-- #camera_wrap_3 -->
+    </div><!-- .fluid_container -->
+    <div class="middle-title"></div>
+    <div class="bg-black">
+        <div class="my-container">
+            <div class="my-title">
+                <div>
+                    brand introduction
+                </div>
+                <div>
+                    走近UAP
+                </div>
+            </div>
+            <div class="to-title">
+                公司介绍 <span>Company</span>
+            </div>
+            <div class="to-des">
+                杭州可仁化妆品有限公司座落于美丽的西子湖畔，人间天堂—杭州。公司位于著名的钱塘江南畔-滨江区，紧邻阿里巴巴、康恩贝，及国外众多上市公司，被称为浙江省、乃至全国的硅谷。公司是集化妆品研发、生产、销售、服务为一体的综合型公司，在广州拥有自己的生产工厂，先进的生产设备，完善的产品检测手段和质量保证体系，真正的做到自主研发一体化。<br/><br/>
+
+可仁公司，前身为专业院线品牌知名代理商,运作过众多院线知名品牌，拥有众多兄弟公司和线下实体加盟店.为了紧跟电子商务的发展趋势，筹备规划6个月后，以12年的专业技术和经验为载体，于2014年9月正式进军微商，全新的公司面貌、品牌形象进入微商渠道，并取得了骄人的成绩。<br/><br/>
+
+公司2015年5月份重磅推出“UAP”品牌，定位于健康养生，弥补了微商界的“乳房养生”空白市场，以高端品质、健康理念打造微商第一美胸品牌。并与下半年联合线下实体，启动真正的O2O模式，线上线下完美结合，引领UAP代理进入新高度。
+            </div>
+            <div class="to-title">
+                企业理念 <span>Concept</span>
+            </div>
+            <div class="to-des">
+                品质无敌、营销无敌、以“质量为生命”的标准，打造微商界品质典范！
+            </div>
+            <div class="to-title">
+                企业大记事 <span>Memorabilia</span>
+            </div>
+            <div class="to-des">
+                2014年10月  明星单品销售夺冠<br/>
+2014年11月  登陆美妆栏目<美丽俏佳人><br/>
+2014年12月  <同心盛势 智赢未来>新闻发布会<br/>
+2015年1月   登陆<全国一线卫视>春节黄金档广告<br/>
+2015年2月  <魔术师新品发布>财富会议<br/>
+2015年3月  珂纯带你游遍全球---韩国站<br/>
+2015年4月  被评为中国微商协会副主席单位<br/>
+2015年5月  UAP正式上市<br/>
+            </div>
+        </div>
+    </div>
+    <div class="my-foot"></div>
+    <script type='text/javascript' src='../js/jquery.min.js'></script>
+    <script type='text/javascript' src='../js/jquery.mobile.customized.min.js'></script>
+    <script type='text/javascript' src='../js/jquery.easing.1.3.js'></script> 
+    <script type='text/javascript' src='../js/camera.min.js'></script> 
+    
+    <script>
+        jQuery(function(){
+            
+            jQuery('#camera_wrap_4').camera({
+                height: 'auto',
+                pagination: false,
+                hover: false,
+                opacityOnGrid: false,
+                imagePath: '../images/'
+            });
+
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title><%= title %></title>
+    
+    <!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel='stylesheet' id='camera-css'  href='../css/camera.css' type='text/css' media='all'> 
+    <link href="css/main.css" rel="stylesheet">
+    <!-- <link href="css/responsive.css" rel="stylesheet"> -->
+    <link href="css/new.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+</head><!--/head-->
+<body>
+     <div class="my-container clearfix">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li ><a href="index.html">首页</a></li>
+            <li  ><a href="shortcodes.html">微商资讯</a></li>
+            <li ><a href="about-us.html">走近UAP</a></li>
+            <li class="active" ><a href="blog-item.html">产品中心</a></li>
+            <li  ><a href="portfolio.html">授权查询</a></li> 
+            <li  ><a href="contact-us.html">联系我们</a></li>  
+            <li  ><a href="pricing.html">代理商登陆</a></li>                        
+        </ul>
+    </div><!--/.my-container-->
+    <div class="fluid_container">
+        <div class="camera_wrap camera_emboss pattern_1" id="camera_wrap_4">
+            <div data-src="images/banner1.jpg">
+            </div>
+            <div data-src="images/banner2.jpg">
+            </div>
+            <div data-src="images/banner3.jpg">
+            </div>
+        </div><!-- #camera_wrap_3 -->
+    </div><!-- .fluid_container -->
+    <div class="middle-title"></div>
+    <div class="bg-black">
+        <div class="my-container">
+            <div class="my-title">
+                <div>
+                    brand introduction
+                </div>
+                <div>
+                    产品中心
+                </div>
+            </div>
+            <div class="to-title">
+                产品名称： <span class="des">Company</span>
+            </div>
+            <div class="to-des" style="margin-top:0">
+                <b>产品成分：</b>水、油橄榄（OLEA EUROPAEA）果油、丁二醇、鲸蜡硬脂基葡糖苷、鲸蜡硬脂醇、霍霍巴（SIMMONDSIA CHINENSIS）籽油、人参（PANAX GINSENG）根提取物、乳香、王不留行（VACCARIASEGETALIS）提取物、印度没药（COMMIPHORA MUKUL）树脂提取物、牛油果树（BUTYROSPERMUM PARKII）果脂、PEG-100硬脂酸酯、聚山梨醇酯-80、野牡丹（MELASTOMA CANDIDUM）提取物、马齿苋（PORIULACAOLERACEA）提取物、小麦（TRITICUM VULGARE）胚芽提取物、黄胶原、透明质酸、食用香精（料）。<br/><br/>
+
+<b>产品说明：</b>有助于解决肌肤松弛现象，提升胸部肌肤弹性，令肌肤丰韵紧实，突出傲人线条，展现迷人魅力。<br/><br/>
+
+<b>使用方法：</b>取适量本品于胸部肌肤按摩至吸收或配合专业手法。<br/><br/>
+
+<b>注意事项：</b>敏感肌肤请小面积试用，无敏感现象后方可使用。
+            </div>
+        </div>
+    </div>
+    <div class="my-foot"></div>
+    <script type='text/javascript' src='../js/jquery.min.js'></script>
+    <script type='text/javascript' src='../js/jquery.mobile.customized.min.js'></script>
+    <script type='text/javascript' src='../js/jquery.easing.1.3.js'></script> 
+    <script type='text/javascript' src='../js/camera.min.js'></script> 
+    
+    <script>
+        jQuery(function(){
+            
+            jQuery('#camera_wrap_4').camera({
+                height: 'auto',
+                pagination: false,
+                hover: false,
+                opacityOnGrid: false,
+                imagePath: '../images/'
+            });
+
+        });
+    </script>
+</body>
+</html>
