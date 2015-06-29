@@ -75,6 +75,7 @@ body, html{
 .middle-title {
   height: 100px;
   background: url(../images/pic3.jpg) 50% 50% no-repeat;
+  min-width: 1200px
 }
 .my-container {
   margin: 0 auto;
@@ -95,9 +96,11 @@ body, html{
   height: 300px;
   background: url(../images/foot.jpg) 50% 0% no-repeat #000;
   margin-top: 70px;
+  min-width: 1200px
 }
 .fluid_container {
-  height: 600px
+  height: 600px;
+  min-width: 1200px
 }
 #camera_wrap_4 {
   height: 600px
