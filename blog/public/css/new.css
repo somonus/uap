@@ -9,11 +9,11 @@ body, html{
     padding-top: 35px;
     color: #d8b392
 }
-.nav>.active>a {
+.my-nav>.active>a {
     background: url(../images/nav.png) 50% 0 no-repeat;
     background-color: none;
 }
-.nav>li>a:hover, .nav>li>a:focus {
+.my-nav>li>a:hover, .my-nav>li>a:focus {
     background: url(../images/nav.png) 50% 0 no-repeat;
     background-color: none;
 }
@@ -99,7 +99,6 @@ body, html{
   min-width: 1200px
 }
 .fluid_container {
-  height: 600px;
   min-width: 1200px
 }
 #camera_wrap_4 {
@@ -158,4 +157,37 @@ body, html{
 h5{
   font-size: 18px;
   color: #fff
+}
+.my-navbar-header {
+  float: left;
+}
+.my-nav {
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.my-nav li {
+  float: left;
+}
+.my-nav a{
+  display: block;
+  font-size: 18px;
+  width: 120px;
+  text-align: center;
+  padding-top: 35px;
+  color: #d8b392;
+  padding-bottom: 15px;
+}
+#m_camera_wrap {
+  height: 845px
+}
+.camera_prevThumbs, .camera_nextThumbs, .camera_prev, .camera_next, .camera_commands, .camera_thumbs_cont {
+  background: none
+}
+.m-foot {
+  height: 390px;
+  width: 1200px;
+  background: url(../images/mfoot.jpg) 50% 0% no-repeat #000;
+  margin-top: 70px;
 }

@@ -1,24 +1,37 @@
+<div class="my-foot hidden-xs hidden-sm"></div>
+<div class="m-foot hidden-md hidden-lg"></div>
+    <script type='text/javascript' src='../js/jquery.min.js'></script>
+    <script type='text/javascript' src='../js/jquery.mobile.customized.min.js'></script>
+    <script type='text/javascript' src='../js/jquery.easing.1.3.js'></script> 
+    <script type='text/javascript' src='../js/camera.min.js'></script> 
+    
+    <script>
+        jQuery(function(){
+            
+            jQuery('#camera_wrap_4').camera({
+                height: 'auto',
+                pagination: false,
+                hover: false,
+                opacityOnGrid: false,
+                imagePath: '../images/',
+                fx: "scrollLeft",
+                playPause: false,
+                pauseOnClick: false,
+                time: 1500,
+                loader: "none"
+            });
+            jQuery('#m_camera_wrap').camera({
+                height: 'auto',
+                pagination: false,
+                hover: false,
+                opacityOnGrid: false,
+                imagePath: '../images/',
+                fx: "scrollLeft",
+                playPause: false,
+                pauseOnClick: false,
+                time: 1500,
+                loader: "none"
+            });
 
-<footer id="footer" class="midnight-blue">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    &copy; 2013 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ShapeBootstrap</a>. All Rights Reserved.
-                </div>
-                <div class="col-sm-6">
-                    <ul class="pull-right">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Faq</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer><!--/#footer-->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/wow.min.js"></script>
+        });
+    </script>
