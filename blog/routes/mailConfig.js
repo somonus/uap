@@ -9,7 +9,6 @@ module.exports = {
             }
         },
         to: [
-            'guiqi.zh@alibaba-inc.com'
         ]
     }
 };
